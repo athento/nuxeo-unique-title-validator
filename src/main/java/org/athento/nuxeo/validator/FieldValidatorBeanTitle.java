@@ -62,7 +62,7 @@ public class FieldValidatorBeanTitle implements Serializable {
         int i=docList.size();
 
         if (i!=0){
-            String info_message = "Documento '"+value+"' existente";
+            String info_message = "Document '"+value+"' already exist";
             FacesMessage message = new FacesMessage(
                     FacesMessage.SEVERITY_ERROR,info_message , null);
                 throw new ValidatorException(message);
