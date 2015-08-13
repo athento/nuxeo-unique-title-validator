@@ -1,15 +1,5 @@
 <?xml version="1.0"?>
-<component name="org.athento.nuxeo.validator.fieldValidatorBean">
+<component name="org.athento.nuxeo.validator.FieldValidatorBeanTitle">
 
-  <!-- <extension target="org.nuxeo.ecm.platform.actions.ActionService"
-    point="filters">
-
-    <filter id="org.athento.nuxeo.validator.fieldValidatorBean">
-      <rule grant="true">
-        <condition>#{fieldValidator.accept()}</condition>
-      </rule>
-    </filter>
-
-  </extension> -->
 
 </component>
