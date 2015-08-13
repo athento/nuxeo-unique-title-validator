@@ -22,7 +22,7 @@ Use it in your contribution (extensions.xml):
     
 # Motivation
 
-It's very usefull to have a feature that it don't allow to create documents with same title
+It's very useful to have a feature that it don't allow to create documents with same title
 
 # Installation
 
