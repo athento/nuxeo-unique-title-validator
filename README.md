@@ -20,11 +20,11 @@ Use it in your contribution (extensions.xml):
     </widget>
     
     
-    Motivation
+# Motivation
 
 It's very usefull to have a feature that it don't allow to create documents with same title
 
-Installation
+# Installation
 
 You just have to compile the pom.xml using Maven and deploy the plugin in
 
