@@ -3,8 +3,8 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.athento.nuxeo</groupId>
-  <artifactId>athento-nx-validator-title.jar</artifactId>
-  <version>1.0</version>
+  <artifactId>athento-nx-validator-title</artifactId>
+  <version>1.5</version>
   <name>athento-nx-validator-title</name>
   <description/>
   <dependencyManagement>
@@ -23,6 +23,24 @@
       <groupId>org.nuxeo.common</groupId>
       <artifactId>nuxeo-common</artifactId>
     </dependency>
+    
+    <dependency>
+      <groupId>org.nuxeo.ecm.automation</groupId>
+      <artifactId>nuxeo-automation-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.seam</groupId>
+      <artifactId>jboss-seam</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    
+    <dependency>
+	<groupId>fr.openwide.nuxeo.commons</groupId>
+	<artifactId>owsi-nuxeo-utils</artifactId>
+	<version>0.1.4</version>
+	</dependency>
+    
+    
     <dependency>
       <groupId>org.nuxeo.runtime</groupId>
       <artifactId>nuxeo-runtime</artifactId>
